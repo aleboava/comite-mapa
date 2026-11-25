@@ -1,0 +1,21 @@
+{
+  "colunas": {
+    "id": "Response ID",
+    "cidade": "4. Cidade e UF",
+    "data": "Timestamp",
+    "email": "2. E-mail",
+    "telefone": "3. WhatsApp",
+    "consentimento": "11. Uso dos seus dados",
+    "finalizado": "Finished"
+  },
+  "consentimento_aceito": "accepted",
+  "finalizado_sim": "Yes",
+  "remover_duplicadas": true,
+  "limite_grupo": 120,
+  "minimo_grupo": 90,
+  "zonas_especiais": {
+    "SP": "regiao_metropolitana",
+    "RJ": "capital",
+    "MG": "regiao_metropolitana"
+  }
+}

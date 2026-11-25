@@ -1,0 +1,20 @@
+grupo,nome,tipo
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",brasil
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",brasil
+G03,Pernambuco e Paraíba,brasil
+G04,"Bahia, Alagoas e Sergipe",brasil
+G05,Distrito Federal,brasil
+G06,Belo Horizonte/MG e região,brasil
+G07,Uberlândia/MG e região,brasil
+G08,Interior de São Paulo: Indaiatuba e região,brasil
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,brasil
+G10,Rio de Janeiro/RJ (capital),brasil
+G11,Interior de São Paulo: Campinas e região,brasil
+G12,São Paulo/SP com Osasco e Barueri e região,brasil
+G13,"São Paulo/SP (só a cidade, parte 1)",brasil
+G14,"São Paulo/SP (só a cidade, parte 2)",brasil
+G15,São Paulo/SP com Santo André e Guarulhos e região,brasil
+G16,Paraná,brasil
+G17,Santa Catarina,brasil
+G18,Rio Grande do Sul,brasil
+G19,Exterior,exterior

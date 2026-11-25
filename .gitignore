@@ -1,0 +1,19 @@
+# Dados privados: exportações do formulário, grupo de cada resposta e relatórios.
+# NUNCA remova estas linhas.
+privado/*
+!privado/LEIAME.md
+
+# Qualquer CSV fora dos lugares públicos conhecidos (proteção extra contra exportações soltas)
+*.csv
+!referencia/*.csv
+!docs/data/base_publica.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,95 @@
+:root {
+  --fg: #1f1e1d;
+  --fg-muted: #6b6a66;
+  --bg: #ffffff;
+  --panel: #f6f5f2;
+  --border: #e3e1db;
+  --grid: #cfccc4;
+  --axis: #9a978f;
+  --popover: #ffffff;
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --accent: #2f6fdf;
+  --radius: 10px;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --fs-caption: 12px;
+  --fs-body: 14px;
+  --fs-heading: 18px;
+  --fs-title: 30px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #ecebe8; --fg-muted: #a5a39d; --bg: #1c1b1a; --panel: #262523; --border: #3a3936;
+    --grid: #4a4945; --axis: #77756f; --popover: #2b2a28; --shadow: 0 4px 16px rgba(0, 0, 0, 0.5); --accent: #6d9cf0;
+  }
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: var(--fs-body); line-height: 1.45; }
+.mp-wrap { max-width: 1400px; margin: 0 auto; padding: 24px 20px 40px; display: flex; flex-direction: column; gap: 24px; }
+.mp-title { font-family: var(--serif); font-weight: 400; font-size: var(--fs-title); margin: 0; }
+.mp-lede { margin: 6px 0 0; color: var(--fg-muted); }
+.mp-lede b, .mp-sub b { font-variant-numeric: tabular-nums; }
+.mp-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.mp-card { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+.mp-card h3 { margin: 0; font-size: var(--fs-caption); font-weight: 500; color: var(--fg-muted); }
+.mp-num { display: block; font-family: var(--serif); font-size: var(--fs-title); font-variant-numeric: tabular-nums; margin-top: 4px; }
+.mp-sub { margin: 4px 0 0; font-size: var(--fs-caption); color: var(--fg-muted); }
+.mp-h2 { font-size: var(--fs-heading); font-weight: 600; margin: 0 0 4px; }
+.mp-note { margin: 0 0 8px; font-size: var(--fs-caption); color: var(--fg-muted); }
+
+.mp-cols { display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px; align-items: start; }
+@media (min-width: 1100px) { .mp-cols { grid-template-columns: minmax(0, 3fr) minmax(260px, 1fr); } }
+
+.mp-mapbox { position: relative; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--bg); }
+.mp-map { position: relative; min-height: 420px; touch-action: none; }
+.mp-map svg { display: block; width: 100%; height: auto; cursor: grab; }
+.mp-map svg:active { cursor: grabbing; }
+.mp-state { fill: var(--panel); stroke: var(--grid); stroke-width: 0.8; vector-effect: non-scaling-stroke; }
+.mp-ctrl { position: absolute; top: 8px; right: 8px; display: flex; flex-direction: column; gap: 4px; z-index: 2; }
+.mp-ctrl button { min-width: 36px; height: 36px; padding: 0 8px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--popover); color: var(--fg); font: inherit; font-size: 16px; cursor: pointer; box-shadow: var(--shadow); }
+.mp-ctrl button:hover { background: var(--panel); }
+.mp-ctrl .mp-reset { font-size: var(--fs-caption); }
+.mp-zoomlvl { position: absolute; left: 8px; top: 8px; font-size: var(--fs-caption); color: var(--fg-muted); background: var(--popover); border: 1px solid var(--border); border-radius: var(--radius); padding: 2px 8px; pointer-events: none; font-variant-numeric: tabular-nums; }
+.mp-dot { fill: var(--accent); stroke: var(--accent); fill-opacity: 0.55; stroke-width: 1; cursor: pointer; }
+.mp-dot:hover, .mp-dot.on { fill-opacity: 0.85; }
+.mp-label, .mg-label { font-size: var(--fs-caption); fill: var(--fg); paint-order: stroke; stroke: var(--bg); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; font-variant-numeric: tabular-nums; }
+.mg-label { font-weight: 600; }
+.mg-label.fora { opacity: 0.3; }
+.mp-leg-c { fill: none; stroke: var(--axis); }
+.mp-leg-t { font-size: var(--fs-caption); fill: var(--fg-muted); }
+.mp-leg-bg { fill: var(--bg); fill-opacity: 0.85; }
+.mp-tip { position: absolute; pointer-events: none; background: var(--popover); border: 1px solid var(--border); box-shadow: var(--shadow); border-radius: var(--radius); padding: 6px 10px; font-size: var(--fs-caption); white-space: nowrap; z-index: 3; }
+.mp-tip strong { display: block; font-weight: 600; }
+.mp-tip span { display: block; color: var(--fg-muted); font-variant-numeric: tabular-nums; }
+.mp-fail { color: var(--fg-muted); font-size: var(--fs-caption); padding: 16px; }
+.mg-dot { fill-opacity: 0.75; stroke-width: 1; cursor: pointer; }
+.mg-dot.fora { fill-opacity: 0.12; stroke-opacity: 0.2; }
+.mg-hull { fill-opacity: 0.08; stroke-width: 1.5; stroke-dasharray: 4 3; pointer-events: none; }
+
+.mp-tablewrap { overflow-x: auto; }
+.mp-table { width: 100%; border-collapse: collapse; }
+.mp-table th, .mp-table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); }
+.mp-table th { font-size: var(--fs-caption); color: var(--fg-muted); font-weight: 500; }
+.mp-table .n { text-align: right; font-variant-numeric: tabular-nums; }
+.mp-table tbody tr { cursor: pointer; }
+.mp-table tbody tr:hover td, .mp-table tr.sel td { background: var(--panel); }
+.mp-table tr.sel td { font-weight: 600; }
+
+.mp-grupos { display: flex; flex-direction: column; gap: 12px; border-top: 1px solid var(--border); padding-top: 28px; }
+.mp-grupos .mp-lede { margin: 0; color: var(--fg); }
+.mp-grupos .mp-table td:nth-child(4) { color: var(--fg-muted); font-size: var(--fs-caption); }
+.mg-met { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+.mg-h3 { margin: 0 0 8px; font-size: var(--fs-body); font-weight: 600; }
+.mg-met ol { margin: 0 0 8px; padding-left: 1.3em; display: flex; flex-direction: column; gap: 4px; }
+.mg-met .mp-note { margin: 0; }
+.mp-mundo { display: flex; flex-direction: column; gap: 12px; border-top: 1px solid var(--border); padding-top: 28px; }
+.mp-mundo .mp-lede { margin: 0; color: var(--fg); }
+.mp-mundo .mp-table td:nth-child(3) { color: var(--fg-muted); font-size: var(--fs-caption); }
+.mw-sphere { fill: var(--bg); stroke: var(--grid); vector-effect: non-scaling-stroke; }
+.mp-state.mw-br { fill: var(--border); }
+.mw-dot { fill-opacity: 0.6; stroke-width: 1; cursor: pointer; }
+.mw-dot:hover { fill-opacity: 0.9; }
+.mw-dot.aprox { stroke-dasharray: 2 2; fill-opacity: 0.3; }
+.mp-loading { padding: 40px; text-align: center; color: var(--fg-muted); font-size: var(--fs-caption); }
+.mp-foot { font-size: var(--fs-caption); color: var(--fg-muted); border-top: 1px solid var(--border); padding-top: 12px; }

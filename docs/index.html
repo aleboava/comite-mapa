@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mapa de respondentes por cidade</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ccircle cx=%228%22 cy=%228%22 r=%226%22 fill=%22%232f6fdf%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="mp-wrap">
+  <header id="topo">
+    <h1 class="mp-title">Onde estão os respondentes no Brasil</h1>
+    <p class="mp-lede"><b data-resumo="no_mapa">—</b> pessoas aparecem no mapa, em <b data-resumo="cidades">—</b> cidades. <b data-resumo="exterior">—</b> moram fora do Brasil e <b data-resumo="sem_cidade">—</b> não informaram a cidade. Nenhuma das duas aparece no mapa.</p>
+  </header>
+
+  <section class="mp-kpis" id="numeros">
+    <div class="mp-card"><h3>Pessoas inscritas</h3><span class="mp-num" data-resumo="total">—</span></div>
+    <div class="mp-card"><h3>No mapa (cidade no Brasil)</h3><span class="mp-num" data-resumo="no_mapa">—</span></div>
+    <div class="mp-card"><h3>Moram fora do Brasil</h3><span class="mp-num" data-resumo="exterior">—</span><p class="mp-sub">Ficam fora do mapa</p></div>
+    <div class="mp-card"><h3>Não informaram a cidade</h3><span class="mp-num" data-resumo="sem_cidade">—</span>
+      <p class="mp-sub"><b data-resumo="so_uf">—</b> deram só o estado · <b data-resumo="invalidas">—</b> respostas vazias ou inválidas</p></div>
+  </section>
+
+  <div class="mp-cols">
+    <section id="mapa">
+      <h2 class="mp-h2">Pessoas por cidade</h2>
+      <p class="mp-note">Cada círculo é uma cidade, no centro do município, com área proporcional ao número de pessoas. Use a roda do mouse, o gesto de pinça ou os botões para aproximar, arraste para mover e clique numa cidade (no mapa ou na tabela) para chegar mais perto. Com mais zoom, aparecem mais nomes de cidades.</p>
+      <div class="mp-mapbox">
+        <div class="mp-ctrl">
+          <button type="button" data-zoom="in" aria-label="Aproximar">+</button>
+          <button type="button" data-zoom="out" aria-label="Afastar">−</button>
+          <button type="button" class="mp-reset" data-zoom="reset" aria-label="Ver o Brasil inteiro">Brasil</button>
+        </div>
+        <div class="mp-map" id="mapa-cidades" role="img" aria-label="Mapa do Brasil com círculos proporcionais ao número de respondentes em cada cidade, com zoom"></div>
+      </div>
+    </section>
+
+    <section id="ranking">
+      <h2 class="mp-h2">As 15 cidades com mais pessoas</h2>
+      <p class="mp-note">Clique numa cidade para vê-la no mapa.</p>
+      <div class="mp-tablewrap">
+        <table class="mp-table">
+          <thead><tr><th>Cidade</th><th>UF</th><th class="n">Pessoas</th></tr></thead>
+          <tbody id="tabela-ranking"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <section class="mp-grupos" id="grupos">
+    <h2 class="mp-h2">Proposta de grupos por proximidade</h2>
+    <p class="mp-lede">São <b data-geral="grupos">—</b> grupos: <b data-geral="grupos_brasil">—</b> no Brasil, de <b data-geral="menor">—</b> a <b data-geral="maior">—</b> pessoas cada, e um com as <b data-geral="exterior">—</b> pessoas que moram no exterior. Ao todo, <b data-geral="com_grupo">—</b> pessoas têm grupo. <b data-geral="sem_grupo">—</b> respostas vazias ou inválidas ficaram sem grupo.</p>
+    <div class="mg-met" id="metodologia">
+      <h3 class="mg-h3">Como os grupos foram montados</h3>
+      <ol>
+        <li><strong>Estados inteiros:</strong> nenhum estado é dividido entre grupos. Estados com até 120 pessoas entram inteiros num grupo, sozinhos ou somados a estados vizinhos (que fazem fronteira), buscando de 90 a 120 pessoas.</li>
+        <li><strong>Estados grandes:</strong> estados com mais de 120 pessoas (São Paulo, Rio de Janeiro e Minas Gerais) formam grupos só com gente do próprio estado, divididos por proximidade.</li>
+        <li><strong>Grande São Paulo e capital do Rio à parte:</strong> a Grande São Paulo forma grupos só dela. No Rio, a capital forma um grupo; o resto do estado fica com o Espírito Santo.</li>
+        <li><strong>Cidades inteiras:</strong> toda cidade que cabe num grupo fica inteira nele; só as capitais São Paulo e Rio são repartidas. Em Minas, a Grande BH fica no mesmo grupo.</li>
+        <li><strong>Quem chega depois:</strong> a lista é atualizada todo dia. Quem já tem grupo continua nele. Cada pessoa nova entra no grupo da sua cidade (se a cidade estiver em mais de um, no menor deles); se a cidade ainda não aparece, no grupo mais próximo do mesmo estado e da mesma região (Grande SP, capital do Rio, Grande BH ou resto do estado).</li>
+        <li><strong>Casos especiais:</strong> quem informou só o estado fica na capital; quem mora fora do Brasil vai para o grupo do exterior; inscrições repetidas contam uma vez; respostas vazias ou inválidas ficam sem grupo.</li>
+      </ol>
+      <p class="mp-note">A divisão inicial foi feita por proximidade (k-médias com limite de tamanho) e depois ajustada à mão. Com as entradas diárias, alguns grupos podem passar de 120 ou ficar abaixo de 90; esses casos são revistos pela coordenação.</p>
+    </div>
+    <p class="mp-note">Cada cor é um grupo (as cores se repetem só entre grupos distantes). Clique num ponto do mapa ou numa linha da tabela para destacar o grupo e aproximar; clique no fundo do mapa para tirar o destaque. Cidades divididas entre grupos, como São Paulo e Rio de Janeiro, aparecem como um anel de pontos em volta da cidade. Quem informou só a UF está na capital.</p>
+    <div class="mp-mapbox">
+      <div class="mp-ctrl">
+        <button type="button" data-zoom-g="in" aria-label="Aproximar">+</button>
+        <button type="button" data-zoom-g="out" aria-label="Afastar">−</button>
+        <button type="button" class="mp-reset" data-zoom-g="reset" aria-label="Ver o Brasil inteiro">Brasil</button>
+      </div>
+      <div class="mp-map" id="mapa-grupos" role="img" aria-label="Mapa do Brasil com os grupos propostos, uma cor por grupo, com zoom"></div>
+    </div>
+    <div class="mp-tablewrap">
+      <table class="mp-table">
+        <thead><tr><th>Grupo</th><th>Nome</th><th class="n">Pessoas</th><th>Principais cidades</th><th>UFs</th></tr></thead>
+        <tbody id="tabela-grupos"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="mp-mundo" id="mundo">
+    <h2 class="mp-h2">Onde estão os inscritos no mundo</h2>
+    <p class="mp-lede"><b data-mundo="brasil">—</b> pessoas estão no Brasil e <b data-mundo="exterior_mapa">—</b> no exterior, em <b data-mundo="paises">—</b> países. Ficam fora do mapa <b data-mundo="exterior_sem">—</b> pessoas que moram fora mas não disseram onde e <b data-mundo="sem_cidade">—</b> que moram no Brasil mas informaram só o estado.</p>
+    <p class="mp-note">Cada círculo é uma cidade, com área proporcional ao número de pessoas. Quem informou só o país aparece no centro do país, com contorno tracejado. Use a roda do mouse, o gesto de pinça ou os botões para aproximar, e clique num círculo ou num país da tabela para chegar mais perto.</p>
+    <div class="mp-mapbox">
+      <div class="mp-ctrl">
+        <button type="button" data-zoom-w="in" aria-label="Aproximar">+</button>
+        <button type="button" data-zoom-w="out" aria-label="Afastar">−</button>
+        <button type="button" class="mp-reset" data-zoom-w="reset" aria-label="Ver o mundo inteiro">Mundo</button>
+      </div>
+      <div class="mp-map" id="mapa-mundo" role="img" aria-label="Mapa-múndi com os inscritos no Brasil e no exterior, com zoom"></div>
+    </div>
+    <h3 class="mg-h3">Inscritos por país, fora do Brasil</h3>
+    <div class="mp-tablewrap">
+      <table class="mp-table">
+        <thead><tr><th>País</th><th class="n">Pessoas</th><th>Cidades</th></tr></thead>
+        <tbody id="tabela-paises"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="mp-foot">Dados atualizados em <span id="atualizado-em">—</span>. Fonte: inscrições de voluntariado (só cidade, UF e grupo; nenhum dado pessoal é publicado). Coordenadas: centro de cada município (base IBGE). Limites estaduais simplificados.</footer>
+</main>
+
+<script src="vendor/d3.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

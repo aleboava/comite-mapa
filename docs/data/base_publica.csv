@@ -1,0 +1,373 @@
+grupo,nome_do_grupo,cidade,uf,pais,pessoas
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Aquiraz,CE,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Caucaia,CE,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Cedro,CE,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Crateús,CE,Brasil,3
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Fortaleza,CE,Brasil,52
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Itapipoca,CE,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Jaguaretama,CE,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Juazeiro do Norte,CE,Brasil,3
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Limoeiro do Norte,CE,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Maracanaú,CE,Brasil,3
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Maranguape,CE,Brasil,2
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Morada Nova,CE,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Pacatuba,CE,Brasil,2
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Quixadá,CE,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Sobral,CE,Brasil,2
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",(só o estado),MA,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Bacabal,MA,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Imperatriz,MA,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Paço do Lumiar,MA,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",São Luís,MA,Brasil,11
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Parnaíba,PI,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Teresina,PI,Brasil,9
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Currais Novos,RN,Brasil,2
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Marcelino Vieira,RN,Brasil,1
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Mossoró,RN,Brasil,2
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Natal,RN,Brasil,17
+G01,"Ceará, Rio Grande do Norte, Maranhão e Piauí",Parnamirim,RN,Brasil,3
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Rio Branco,AC,Brasil,2
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Lábrea,AM,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Manaus,AM,Brasil,11
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Parintins,AM,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",(só o estado),AP,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Macapá,AP,Brasil,3
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Alto Paraíso de Goiás,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Anápolis,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Aparecida de Goiânia,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Catalão,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Ceres,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Cristalina,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Formosa,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Goiânia,GO,Brasil,18
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Jataí,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Luziânia,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Uruaçu,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Valparaíso de Goiás,GO,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Campo Grande,MS,Brasil,12
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Coxim,MS,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Dourados,MS,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Cuiabá,MT,Brasil,7
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Rondonópolis,MT,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Ananindeua,PA,Brasil,5
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Belém,PA,Brasil,21
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",São Caetano de Odivelas,PA,Brasil,1
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Porto Velho,RO,Brasil,2
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Boa Vista,RR,Brasil,2
+G02,"Goiás, Pará, Mato Grosso do Sul, Amazonas, Mato Grosso, Amapá, Acre, Roraima, Rondônia e Tocantins",Palmas,TO,Brasil,1
+G03,Pernambuco e Paraíba,(só o estado),PB,Brasil,1
+G03,Pernambuco e Paraíba,Campina Grande,PB,Brasil,9
+G03,Pernambuco e Paraíba,João Pessoa,PB,Brasil,17
+G03,Pernambuco e Paraíba,Picuí,PB,Brasil,1
+G03,Pernambuco e Paraíba,Santa Rita,PB,Brasil,1
+G03,Pernambuco e Paraíba,Sousa,PB,Brasil,1
+G03,Pernambuco e Paraíba,Teixeira,PB,Brasil,1
+G03,Pernambuco e Paraíba,Camaragibe,PE,Brasil,3
+G03,Pernambuco e Paraíba,Exu,PE,Brasil,1
+G03,Pernambuco e Paraíba,Garanhuns,PE,Brasil,1
+G03,Pernambuco e Paraíba,Gravatá,PE,Brasil,1
+G03,Pernambuco e Paraíba,Jaboatão dos Guararapes,PE,Brasil,1
+G03,Pernambuco e Paraíba,Olinda,PE,Brasil,1
+G03,Pernambuco e Paraíba,Palmares,PE,Brasil,1
+G03,Pernambuco e Paraíba,Paulista,PE,Brasil,3
+G03,Pernambuco e Paraíba,Petrolina,PE,Brasil,2
+G03,Pernambuco e Paraíba,Recife,PE,Brasil,59
+G03,Pernambuco e Paraíba,Serra Talhada,PE,Brasil,2
+G03,Pernambuco e Paraíba,Surubim,PE,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Maceió,AL,Brasil,14
+G04,"Bahia, Alagoas e Sergipe",Marechal Deodoro,AL,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Rio Largo,AL,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Alagoinhas,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Camaçari,BA,Brasil,2
+G04,"Bahia, Alagoas e Sergipe",Candiba,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Caravelas,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Feira de Santana,BA,Brasil,7
+G04,"Bahia, Alagoas e Sergipe",Irecê,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Itacaré,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Itagimirim,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Jacobina,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Juazeiro,BA,Brasil,2
+G04,"Bahia, Alagoas e Sergipe",Lençóis,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Mirangaba,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Mucuri,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Paulo Afonso,BA,Brasil,3
+G04,"Bahia, Alagoas e Sergipe",Porto Seguro,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Quijingue,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Salvador,BA,Brasil,46
+G04,"Bahia, Alagoas e Sergipe",Santa Cruz Cabrália,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Valença,BA,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Vitória da Conquista,BA,Brasil,4
+G04,"Bahia, Alagoas e Sergipe",(só o estado),SE,Brasil,1
+G04,"Bahia, Alagoas e Sergipe",Aracaju,SE,Brasil,9
+G04,"Bahia, Alagoas e Sergipe",Barra dos Coqueiros,SE,Brasil,1
+G05,Distrito Federal,Brasília,DF,Brasil,89
+G05,Distrito Federal,Brazlândia (Brasília),DF,Brasil,1
+G05,Distrito Federal,Samambaia (Brasília),DF,Brasil,1
+G06,Belo Horizonte/MG e região,(só o estado),MG,Brasil,3
+G06,Belo Horizonte/MG e região,Belo Horizonte,MG,Brasil,74
+G06,Belo Horizonte/MG e região,Contagem,MG,Brasil,4
+G06,Belo Horizonte/MG e região,Ibirité,MG,Brasil,1
+G06,Belo Horizonte/MG e região,Ipatinga,MG,Brasil,1
+G06,Belo Horizonte/MG e região,Itabira,MG,Brasil,1
+G06,Belo Horizonte/MG e região,Itabirito,MG,Brasil,1
+G06,Belo Horizonte/MG e região,João Monlevade,MG,Brasil,3
+G06,Belo Horizonte/MG e região,Matozinhos,MG,Brasil,1
+G06,Belo Horizonte/MG e região,Pedro Leopoldo,MG,Brasil,1
+G06,Belo Horizonte/MG e região,Ribeirão das Neves,MG,Brasil,1
+G06,Belo Horizonte/MG e região,Santa Luzia,MG,Brasil,1
+G06,Belo Horizonte/MG e região,Vespasiano,MG,Brasil,2
+G07,Uberlândia/MG e região,Alfenas,MG,Brasil,1
+G07,Uberlândia/MG e região,Andradas,MG,Brasil,2
+G07,Uberlândia/MG e região,Conceição da Aparecida,MG,Brasil,1
+G07,Uberlândia/MG e região,Congonhas,MG,Brasil,1
+G07,Uberlândia/MG e região,Conselheiro Lafaiete,MG,Brasil,1
+G07,Uberlândia/MG e região,Governador Valadares,MG,Brasil,5
+G07,Uberlândia/MG e região,Itajubá,MG,Brasil,1
+G07,Uberlândia/MG e região,Janaúba,MG,Brasil,1
+G07,Uberlândia/MG e região,Juiz de Fora,MG,Brasil,11
+G07,Uberlândia/MG e região,Lavras,MG,Brasil,1
+G07,Uberlândia/MG e região,Mariana,MG,Brasil,1
+G07,Uberlândia/MG e região,Ouro Preto,MG,Brasil,3
+G07,Uberlândia/MG e região,Patos de Minas,MG,Brasil,1
+G07,Uberlândia/MG e região,Patrocínio,MG,Brasil,1
+G07,Uberlândia/MG e região,Patrocínio do Muriaé,MG,Brasil,1
+G07,Uberlândia/MG e região,Pouso Alegre,MG,Brasil,1
+G07,Uberlândia/MG e região,Poços de Caldas,MG,Brasil,2
+G07,Uberlândia/MG e região,Santa Rita do Sapucaí,MG,Brasil,1
+G07,Uberlândia/MG e região,Serro,MG,Brasil,1
+G07,Uberlândia/MG e região,Sete Lagoas,MG,Brasil,1
+G07,Uberlândia/MG e região,Uberaba,MG,Brasil,1
+G07,Uberlândia/MG e região,Uberlândia,MG,Brasil,16
+G07,Uberlândia/MG e região,Varginha,MG,Brasil,3
+G07,Uberlândia/MG e região,Visconde do Rio Branco,MG,Brasil,1
+G07,Uberlândia/MG e região,Viçosa,MG,Brasil,2
+G08,Interior de São Paulo: Indaiatuba e região,Adamantina,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Americana,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Araraquara,SP,Brasil,6
+G08,Interior de São Paulo: Indaiatuba e região,Araras,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Araçatuba,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Batatais,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Bauru,SP,Brasil,4
+G08,Interior de São Paulo: Indaiatuba e região,Birigui,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Boituva,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Botucatu,SP,Brasil,2
+G08,Interior de São Paulo: Indaiatuba e região,Brotas,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Cerquilho,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Cosmópolis,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Cravinhos,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Dois Córregos,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Franca,SP,Brasil,3
+G08,Interior de São Paulo: Indaiatuba e região,Hortolândia,SP,Brasil,4
+G08,Interior de São Paulo: Indaiatuba e região,Igarapava,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Indaiatuba,SP,Brasil,9
+G08,Interior de São Paulo: Indaiatuba e região,Itu,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Jaboticabal,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Marília,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Mirante do Paranapanema,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Mogi Guaçu,SP,Brasil,2
+G08,Interior de São Paulo: Indaiatuba e região,Neves Paulista,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Nhandeara,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Ourinhos,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Paulínia,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Pedreira,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Piracicaba,SP,Brasil,5
+G08,Interior de São Paulo: Indaiatuba e região,Pirassununga,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Piratininga,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Presidente Prudente,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Ribeirão Preto,SP,Brasil,10
+G08,Interior de São Paulo: Indaiatuba e região,Salto,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Santa Bárbara d'Oeste,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Santa Rita do Passa Quatro,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Socorro,SP,Brasil,2
+G08,Interior de São Paulo: Indaiatuba e região,Sorocaba,SP,Brasil,4
+G08,Interior de São Paulo: Indaiatuba e região,Sumaré,SP,Brasil,3
+G08,Interior de São Paulo: Indaiatuba e região,São Carlos,SP,Brasil,8
+G08,Interior de São Paulo: Indaiatuba e região,São José do Rio Preto,SP,Brasil,3
+G08,Interior de São Paulo: Indaiatuba e região,São João da Boa Vista,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,São Miguel Arcanjo,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,São Sebastião da Grama,SP,Brasil,1
+G08,Interior de São Paulo: Indaiatuba e região,Valinhos,SP,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,(só o estado),ES,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Divino de São Lourenço,ES,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Serra,ES,Brasil,3
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Vila Velha,ES,Brasil,4
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Vitória,ES,Brasil,10
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,(só o estado),RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Angra dos Reis,RJ,Brasil,2
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Arraial do Cabo,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Belford Roxo,RJ,Brasil,2
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Campos dos Goytacazes,RJ,Brasil,6
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Macaé,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Magé,RJ,Brasil,3
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Mesquita,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Miguel Pereira,RJ,Brasil,2
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Nilópolis,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Niterói,RJ,Brasil,12
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Nova Friburgo,RJ,Brasil,3
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Nova Iguaçu,RJ,Brasil,2
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Paraty,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Petrópolis,RJ,Brasil,3
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Resende,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Rio das Flores,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Rio das Ostras,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Saquarema,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Seropédica,RJ,Brasil,1
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,São Gonçalo,RJ,Brasil,2
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,São João de Meriti,RJ,Brasil,2
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Teresópolis,RJ,Brasil,3
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Três Rios,RJ,Brasil,3
+G09,Estado do Rio de Janeiro (fora da capital) e Espírito Santo,Volta Redonda,RJ,Brasil,2
+G10,Rio de Janeiro/RJ (capital),(só o estado),RJ,Brasil,2
+G10,Rio de Janeiro/RJ (capital),Rio de Janeiro,RJ,Brasil,162
+G11,Interior de São Paulo: Campinas e região,Bragança Paulista,SP,Brasil,3
+G11,Interior de São Paulo: Campinas e região,Campinas,SP,Brasil,42
+G11,Interior de São Paulo: Campinas e região,Caraguatatuba,SP,Brasil,2
+G11,Interior de São Paulo: Campinas e região,Cruzeiro,SP,Brasil,1
+G11,Interior de São Paulo: Campinas e região,Guaratinguetá,SP,Brasil,1
+G11,Interior de São Paulo: Campinas e região,Guarujá,SP,Brasil,1
+G11,Interior de São Paulo: Campinas e região,Ibiúna,SP,Brasil,1
+G11,Interior de São Paulo: Campinas e região,Itatiba,SP,Brasil,2
+G11,Interior de São Paulo: Campinas e região,Jacareí,SP,Brasil,4
+G11,Interior de São Paulo: Campinas e região,Jundiaí,SP,Brasil,4
+G11,Interior de São Paulo: Campinas e região,Lorena,SP,Brasil,2
+G11,Interior de São Paulo: Campinas e região,Peruíbe,SP,Brasil,2
+G11,Interior de São Paulo: Campinas e região,Pindamonhangaba,SP,Brasil,2
+G11,Interior de São Paulo: Campinas e região,Praia Grande,SP,Brasil,6
+G11,Interior de São Paulo: Campinas e região,Santos,SP,Brasil,12
+G11,Interior de São Paulo: Campinas e região,São José dos Campos,SP,Brasil,19
+G11,Interior de São Paulo: Campinas e região,São Luiz do Paraitinga,SP,Brasil,1
+G11,Interior de São Paulo: Campinas e região,São Roque,SP,Brasil,1
+G11,Interior de São Paulo: Campinas e região,São Vicente,SP,Brasil,1
+G11,Interior de São Paulo: Campinas e região,Taubaté,SP,Brasil,4
+G12,São Paulo/SP com Osasco e Barueri e região,(só o estado),SP,Brasil,3
+G12,São Paulo/SP com Osasco e Barueri e região,Barueri,SP,Brasil,6
+G12,São Paulo/SP com Osasco e Barueri e região,Caieiras,SP,Brasil,1
+G12,São Paulo/SP com Osasco e Barueri e região,Cotia,SP,Brasil,1
+G12,São Paulo/SP com Osasco e Barueri e região,Embu das Artes,SP,Brasil,2
+G12,São Paulo/SP com Osasco e Barueri e região,Francisco Morato,SP,Brasil,1
+G12,São Paulo/SP com Osasco e Barueri e região,Franco da Rocha,SP,Brasil,1
+G12,São Paulo/SP com Osasco e Barueri e região,Jandira,SP,Brasil,1
+G12,São Paulo/SP com Osasco e Barueri e região,Juquitiba,SP,Brasil,2
+G12,São Paulo/SP com Osasco e Barueri e região,Osasco,SP,Brasil,10
+G12,São Paulo/SP com Osasco e Barueri e região,São Paulo,SP,Brasil,79
+G13,"São Paulo/SP (só a cidade, parte 1)",(só o estado),SP,Brasil,3
+G13,"São Paulo/SP (só a cidade, parte 1)",São Paulo,SP,Brasil,105
+G14,"São Paulo/SP (só a cidade, parte 2)",São Paulo,SP,Brasil,106
+G15,São Paulo/SP com Santo André e Guarulhos e região,(só o estado),SP,Brasil,1
+G15,São Paulo/SP com Santo André e Guarulhos e região,Diadema,SP,Brasil,3
+G15,São Paulo/SP com Santo André e Guarulhos e região,Guararema,SP,Brasil,1
+G15,São Paulo/SP com Santo André e Guarulhos e região,Guarulhos,SP,Brasil,15
+G15,São Paulo/SP com Santo André e Guarulhos e região,Mairiporã,SP,Brasil,1
+G15,São Paulo/SP com Santo André e Guarulhos e região,Mauá,SP,Brasil,3
+G15,São Paulo/SP com Santo André e Guarulhos e região,Mogi das Cruzes,SP,Brasil,4
+G15,São Paulo/SP com Santo André e Guarulhos e região,Poá,SP,Brasil,1
+G15,São Paulo/SP com Santo André e Guarulhos e região,Santo André,SP,Brasil,17
+G15,São Paulo/SP com Santo André e Guarulhos e região,Suzano,SP,Brasil,1
+G15,São Paulo/SP com Santo André e Guarulhos e região,São Bernardo do Campo,SP,Brasil,12
+G15,São Paulo/SP com Santo André e Guarulhos e região,São Caetano do Sul,SP,Brasil,2
+G15,São Paulo/SP com Santo André e Guarulhos e região,São Paulo,SP,Brasil,45
+G16,Paraná,(só o estado),PR,Brasil,2
+G16,Paraná,Arapoti,PR,Brasil,1
+G16,Paraná,Cascavel,PR,Brasil,1
+G16,Paraná,Castro,PR,Brasil,1
+G16,Paraná,Cianorte,PR,Brasil,3
+G16,Paraná,Cornélio Procópio,PR,Brasil,1
+G16,Paraná,Curitiba,PR,Brasil,44
+G16,Paraná,Foz do Iguaçu,PR,Brasil,3
+G16,Paraná,Guarapuava,PR,Brasil,1
+G16,Paraná,Irati,PR,Brasil,1
+G16,Paraná,Londrina,PR,Brasil,10
+G16,Paraná,Maringá,PR,Brasil,5
+G16,Paraná,Mariópolis,PR,Brasil,1
+G16,Paraná,Pato Branco,PR,Brasil,1
+G16,Paraná,Pinhais,PR,Brasil,1
+G16,Paraná,Rolândia,PR,Brasil,1
+G16,Paraná,São José dos Pinhais,PR,Brasil,2
+G16,Paraná,São João do Triunfo,PR,Brasil,1
+G16,Paraná,União da Vitória,PR,Brasil,1
+G17,Santa Catarina,(só o estado),SC,Brasil,3
+G17,Santa Catarina,Blumenau,SC,Brasil,5
+G17,Santa Catarina,Caçador,SC,Brasil,1
+G17,Santa Catarina,Chapecó,SC,Brasil,1
+G17,Santa Catarina,Criciúma,SC,Brasil,1
+G17,Santa Catarina,Florianópolis,SC,Brasil,49
+G17,Santa Catarina,Garopaba,SC,Brasil,1
+G17,Santa Catarina,Imbituba,SC,Brasil,2
+G17,Santa Catarina,Indaial,SC,Brasil,1
+G17,Santa Catarina,Itajaí,SC,Brasil,1
+G17,Santa Catarina,Itapema,SC,Brasil,1
+G17,Santa Catarina,Joinville,SC,Brasil,7
+G17,Santa Catarina,Palhoça,SC,Brasil,3
+G17,Santa Catarina,Penha,SC,Brasil,1
+G17,Santa Catarina,São Francisco do Sul,SC,Brasil,2
+G17,Santa Catarina,São José,SC,Brasil,3
+G17,Santa Catarina,Trombudo Central,SC,Brasil,1
+G17,Santa Catarina,Águas Mornas,SC,Brasil,1
+G18,Rio Grande do Sul,Alegrete,RS,Brasil,2
+G18,Rio Grande do Sul,Alvorada,RS,Brasil,1
+G18,Rio Grande do Sul,Bagé,RS,Brasil,2
+G18,Rio Grande do Sul,Barra do Ribeiro,RS,Brasil,1
+G18,Rio Grande do Sul,Cachoeirinha,RS,Brasil,1
+G18,Rio Grande do Sul,Canoas,RS,Brasil,5
+G18,Rio Grande do Sul,Capela de Santana,RS,Brasil,1
+G18,Rio Grande do Sul,Capão da Canoa,RS,Brasil,1
+G18,Rio Grande do Sul,Carlos Barbosa,RS,Brasil,1
+G18,Rio Grande do Sul,Caxias do Sul,RS,Brasil,3
+G18,Rio Grande do Sul,Caçapava do Sul,RS,Brasil,1
+G18,Rio Grande do Sul,Cidreira,RS,Brasil,1
+G18,Rio Grande do Sul,Erechim,RS,Brasil,1
+G18,Rio Grande do Sul,Esteio,RS,Brasil,1
+G18,Rio Grande do Sul,Estância Velha,RS,Brasil,1
+G18,Rio Grande do Sul,Gravataí,RS,Brasil,1
+G18,Rio Grande do Sul,Guaíba,RS,Brasil,2
+G18,Rio Grande do Sul,Mariana Pimentel,RS,Brasil,1
+G18,Rio Grande do Sul,Novo Hamburgo,RS,Brasil,2
+G18,Rio Grande do Sul,Osório,RS,Brasil,1
+G18,Rio Grande do Sul,Passo Fundo,RS,Brasil,1
+G18,Rio Grande do Sul,Pelotas,RS,Brasil,6
+G18,Rio Grande do Sul,Porto Alegre,RS,Brasil,53
+G18,Rio Grande do Sul,Santa Maria,RS,Brasil,5
+G18,Rio Grande do Sul,Santa Vitória do Palmar,RS,Brasil,1
+G18,Rio Grande do Sul,Santiago,RS,Brasil,1
+G18,Rio Grande do Sul,São Leopoldo,RS,Brasil,4
+G18,Rio Grande do Sul,Taquara,RS,Brasil,1
+G18,Rio Grande do Sul,Viamão,RS,Brasil,2
+G19,Exterior,,,,4
+G19,Exterior,,,Portugal,1
+G19,Exterior,,,Canadá,1
+G19,Exterior,,,Alemanha,2
+G19,Exterior,,,França,1
+G19,Exterior,,,Países Baixos,1
+G19,Exterior,,,Suécia,1
+G19,Exterior,Amsterdã,,Países Baixos,1
+G19,Exterior,Antuérpia,,Bélgica,1
+G19,Exterior,Aveiro,,Portugal,1
+G19,Exterior,Barcelona,,Espanha,1
+G19,Exterior,Barreiro,,Portugal,1
+G19,Exterior,Berlim,,Alemanha,2
+G19,Exterior,Birmensdorf,,Suíça,1
+G19,Exterior,Dublin,,Irlanda,2
+G19,Exterior,Estocolmo,,Suécia,1
+G19,Exterior,Gotemburgo,,Suécia,1
+G19,Exterior,Göttingen,,Alemanha,1
+G19,Exterior,Haia,,Países Baixos,1
+G19,Exterior,Hamburgo,,Alemanha,1
+G19,Exterior,Leiria,,Portugal,1
+G19,Exterior,Lisboa,,Portugal,2
+G19,Exterior,Londres,,Reino Unido,3
+G19,Exterior,Luxemburgo,,Luxemburgo,1
+G19,Exterior,Montreal,,Canadá,1
+G19,Exterior,Málaga,,Espanha,1
+G19,Exterior,Ottawa,,Canadá,1
+G19,Exterior,Paris,,França,1
+G19,Exterior,Paço de Arcos,,Portugal,1
+G19,Exterior,Porto,,Portugal,6
+G19,Exterior,Québec,,Canadá,1
+G19,Exterior,Rosário,,Argentina,1
+G19,Exterior,Santiago,,Chile,1
+G19,Exterior,Trois-Rivières,,Canadá,1
+G19,Exterior,Vancouver,,Canadá,1
+G19,Exterior,Venlo,,Países Baixos,1
+G19,Exterior,Vila Nova de Gaia,,Portugal,1
+G19,Exterior,Zurique,,Suíça,1
+,Sem grupo,,,,3
